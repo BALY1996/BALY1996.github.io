@@ -1,67 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brian LY - Ingénieur Automatisme & Robotique</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brian LY - Ingénieur Automatisme & Robotique</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#apropos">À propos</a>
-            <a href="#competences">Compétences</a>
-            <a href="#projets">Projets</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header class="fade-in">
+    <nav>
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="cv.html">Mon CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <main>
-        <section id="hero">
-            <h1>Brian LY</h1>
-            <p>Ingénieur en Automatisme & Robotique</p>
-            <a href="cv.html" class="btn-cv">📄 Voir mon CV complet</a>
+  <main>
+    <section id="hero" class="reveal slide-up">
+      <h1>Brian LY</h1>
+      <p>Ingénieur en Automatisme & Robotique</p>
+      <a href="cv.html" class="btn-cv">📄 Voir mon CV complet</a>
+    </section>
 
-        </section>
+    <section id="apropos" class="reveal fade-in">
+      <h2>À propos</h2>
+      <p>Ingénieur passionné par l’automatisme, la robotique et les systèmes embarqués. Spécialisé dans la conception, la régulation et la gestion de projets innovants, je cherche à créer de la valeur industrielle grâce à l’automatisation intelligente et aux technologies émergentes.</p>
+    </section>
 
-        <section id="apropos">
-            <h2>À propos</h2>
-            <p>Ingénieur passionné par l'automatisme, la robotique et les systèmes embarqués. Décris ici ton parcours, tes expériences et ce qui te motive.</p>
-        </section>
+    <section id="competences" class="reveal slide-left">
+      <h2>Compétences</h2>
+      <div class="skills-grid">
+        <div class="skill">Automatisme</div>
+        <div class="skill">Robotique</div>
+        <div class="skill">Python</div>
+        <div class="skill">C / C++</div>
+        <div class="skill">ROS</div>
+        <div class="skill">PLC / SCADA</div>
+        <div class="skill">Électricité industrielle</div>
+        <div class="skill">Gestion de projet</div>
+      </div>
+    </section>
 
-        <section id="competences">
-            <h2>Compétences</h2>
-            <div class="skills-grid">
-                <div class="skill">Automatisme</div>
-                <div class="skill">Robotique</div>
-                <div class="skill">Python</div>
-                <div class="skill">C/C++</div>
-                <div class="skill">ROS</div>
-                <div class="skill">PLC / SCADA</div>
-            </div>
-        </section>
+    <section id="projets" class="reveal fade-in">
+      <h2>Projets récents</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Robot SCARA pour ligne de production</h3>
+          <p>Conception et intégration d’un robot pour éjection automatique de boîtes de produits. Étude, simulation et mise en œuvre industrielle.</p>
+          <a href="#">Voir les détails →</a>
+        </article>
+        <article class="project-card">
+          <h3>Parking robotisé</h3>
+          <p>Étude de conception d’un parking automatisé et connecté — Projet international en Thaïlande (KMUTNB).</p>
+          <a href="#">Voir les détails →</a>
+        </article>
+      </div>
+    </section>
 
-        <section id="projets">
-            <h2>Projets</h2>
-            <div class="projects-grid">
-                <article class="project-card">
-                    <h3>Nom du projet</h3>
-                    <p>Description courte du projet.</p>
-                    <a href="#">Voir le projet →</a>
-                </article>
-            </div>
-        </section>
+    <section id="contact" class="reveal slide-up">
+      <h2>Contact</h2>
+      <p>Email : <a href="mailto:brianalexly@gmail.com">brianalexly@gmail.com</a></p>
+      <p>Téléphone : +33 7 60 29 16 01</p>
+      <p>LinkedIn : <a href="[linkedin.com](https://www.linkedin.com/in/brian-l-165a72136)">brian-l-165a72136</a></p>
+    </section>
+  </main>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email : <a href="mailto:ton@email.com">ton@email.com</a></p>
-            <p>LinkedIn : <a href="#">Ton profil LinkedIn</a></p>
-            <p>GitHub : <a href="[github.com](https://github.com/BALY1996)">BALY1996</a></p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2026 Brian LY</p>
-    </footer>
+  <footer>
+    <p>© 2026 Brian LY — Portfolio Robotique & Automatisme</p>
+  </footer>
 </body>
 </html>
