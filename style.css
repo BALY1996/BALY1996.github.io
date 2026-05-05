@@ -140,4 +140,49 @@ footer {
 .btn-cv:hover {
     background: #1d4ed8;
 }
+/* --- Animations dynamiques --- */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: scale(0.98);
+  transition: all 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slide-up {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.8s ease-out;
+}
+
+.slide-up.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-left {
+  transform: translateX(-50px);
+  opacity: 0;
+  transition: all 0.8s ease-out;
+}
+
+.slide-left.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
 
