@@ -185,4 +185,59 @@ footer {
   transform: translateX(0);
   opacity: 1;
 }
+/* --- Section Diplômes & Certifications --- */
+
+#diplomes {
+  background: #f8fafc;
+  padding: 5rem 2rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+#diplomes h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary);
+}
+
+#diplomes p {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  color: #475569;
+}
+
+/* Galerie */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.gallery-item p {
+  padding: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1e293b;
+}
 
